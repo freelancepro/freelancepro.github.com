@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Allo Freelancers!
-tagline: Supporting tagline
+tagline: Freelancer's Reputation Platform
 ---
 {% include JB/setup %}
 
-Read [Jekyll Fast Food](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Read [FreelancePro Fast Fufu](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
@@ -15,22 +15,14 @@ In `_config.yml` remember to specify your own data:
     
     title : FreelancePro Blog
     
-    author :
-      name : FreelancePro.me
-      email : care@freelancepro.me
-      github : freelancepro
+    author    :
+      name    : FreelancePro.me
+      email   : care@freelancepro.me
+      github  : freelancepro
       twitter : @FreelancePro_Me
 
 The theme should reference these variables whenever needed.
     
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
