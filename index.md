@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Hello World!
+title: Allo Freelancers!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Read [Jekyll Fast Food](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
@@ -13,13 +13,13 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
+    title : FreelancePro Blog
     
     author :
       name : FreelancePro.me
       email : care@freelancepro.me
-      github : danteata
-      twitter : @dantheta
+      github : freelancepro
+      twitter : @FreelancePro_Me
 
 The theme should reference these variables whenever needed.
     
